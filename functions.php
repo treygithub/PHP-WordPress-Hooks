@@ -31,7 +31,7 @@ function phpforwp_read_more_link( $excerpt ) {
   $extended_excerpt .= 'Read more &raquo;';
   $extended_excerpt .= '</a>';
   // Return $extended_excerpt
-
+ return $extended_excerpt;
 }
 // Add phpforwp_read_more_link function to the get_the_excerpt
 // with a priority of 10
